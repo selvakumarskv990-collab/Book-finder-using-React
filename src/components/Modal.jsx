@@ -7,7 +7,7 @@ export default function Modal({ open, onClose, children, title }) {
       <div className="modal">
         <div className="modal-header">
           <h3 id="modal-title">{title}</h3>
-          <button aria-label="Close modal" className="btn-close" onClick={onClose}>×</button>
+          <button aria-label="Close modal" className="btn-close" onClick={onClose}>Close X</button>
         </div>
         <div className="modal-body">{children}</div>
       </div>

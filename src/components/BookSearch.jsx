@@ -86,11 +86,11 @@ export default function BookSearch() {
         <div className="input-row">
           <label>
             <span className="label">Title</span>
-            <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search by title (e.g. Pride and Prejudice)" />
+            <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search by title" />
           </label>
 
           <label>
-            <span className="label">Author (optional)</span>
+            <span className="label">Author</span>
             <input value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Filter by author" />
           </label>
         </div>

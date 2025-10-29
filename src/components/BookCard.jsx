@@ -19,7 +19,7 @@ export default function BookCard({ book, onMore, onToggleFavorite, isFavorite })
         <p className="book-year">First published: {year}</p>
 
         <div className="book-actions">
-          <button className="btn" onClick={() => onMore(book)}>More</button>
+          <button className="btn" onClick={() => onMore(book)}>See</button>
           <button
             className={`btn btn-fav ${isFavorite ? 'active' : ''}`}
             onClick={() => onToggleFavorite(book)}
